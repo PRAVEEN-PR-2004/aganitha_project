@@ -29,10 +29,10 @@ const HomePage = () => {
               </button>
             </Link>
 
-            <Link to="/search">
+            <Link to="/about">
               <button className="inline-flex items-center justify-center w-full px-6 py-2 transition-all font-bold duration-300 ease-in border border-primary rounded md:w-auto text-primary hover:bg-primary hover:text-white">
                 <ArrowRight className="h-5 w-5 mr-2" />
-                <span className="flex items-center">Browse All Books</span>
+                <span className="flex items-center">How it works</span>
               </button>
             </Link>
           </div>

@@ -5,7 +5,7 @@ import CommonFooter from './components/CommonFooter'
 import HomePage from './pages/HomePage'
 import SearchPage from './pages/SearchPage'
 import NotFound from './components/NotFound'
-
+import HowItwork from './pages/HowItWork'
 function App() {
   return (
     <SearchProvider>
@@ -15,6 +15,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/search" element={<SearchPage />} />
+            <Route path="/about" element={<HowItwork/>}/>
             <Route path="*" element={<NotFound />} />
           </Routes>
           <CommonFooter />
