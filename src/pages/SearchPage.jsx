@@ -21,7 +21,7 @@ function SearchPage() {
         <div className="mb-6">
           <Link
             to="/"
-            className="inline-flex items-center gap-2 text-yellow-600 hover:text-yellow-700 transition-colors"
+            className="inline-flex items-center font-medium gap-2 text-primary hover:text-yellow-500 transition-colors"
           >
             ← Back to Home
           </Link>
