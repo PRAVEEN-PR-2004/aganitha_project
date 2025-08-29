@@ -203,7 +203,7 @@ function BookDetails() {
                     href={getOpenLibraryUrl()}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                    className="flex items-center gap-2 px-4 py-2 bg-primary font-bold text-white rounded-lg hover:bg-yellow-500 transition-colors"
                   >
                     <ExternalLink className="h-4 w-4" />
                     View on Open Library
