@@ -17,11 +17,11 @@ function SearchPage() {
 
   return (
     <div className="min-h-screen">
-      <main className="container mx-auto px-4 py-8">
+      <main className="container px-4 py-8 mx-auto">
         <div className="mb-6">
           <Link
             to="/"
-            className="inline-flex items-center font-medium gap-2 text-primary hover:text-yellow-500 transition-colors"
+            className="inline-flex items-center gap-2 font-medium transition-colors text-primary hover:text-yellow-500"
           >
             ← Back to Home
           </Link>
