@@ -55,7 +55,7 @@ A modern, responsive book search application built with React and Tailwind CSS. 
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd book-finder
+   cd aganitha_project
    ```
 
 2. **Install dependencies**
